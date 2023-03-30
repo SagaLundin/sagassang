@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "../img"
+		},
+		{
+			"name": "js",
+			"path": "../js"
+		},
+		{
+			"name": "sagassang",
+			"path": "../sagassang"
+		},
+		{
+			"name": "css",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
