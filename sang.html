@@ -7,18 +7,68 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <meta charset="UTF-8">
 </head>
+<!-- länkar till dekument samt språk -->
 <body>
 
     <header id="header">
+      <div class="navbar">
         <div class="dropdown">
-          <button class="dropbtn"> 〣 </button>
-        <div class="dropdown-content">
-            <a href="meny.html">Sömn</a>
-          
-          </div>
+           <button onclick="myFunction()" class="dropbtn">〣</button>
+            <div id="myDropdown" class="dropdown-content">
+           <a href="#">Sömn</a>
+            </div>
         </div>
-      </header>
+      </div>
+   </header>
+<!-- header med dropdown -->
+  <div class="content1">
+    <ul class="lista" id="lista1">
+     <li>
+      <a href="#">Om min säng</a>
+     </li>
+  <br>
+     <li>
+      <a href="#">Utseende</a>
+     </li>
+  <br>
+     <li>
+      <a href="#">Fördelar</a>
+     </li>
+  <br>
+     <li>
+      <a href="#">Syfte</a>
+     </li>
+  <br>
+     <li>
+      <a href="#">Mål</a>
+     </li>
+    </ul>
+    <!-- register med länkningar inom dokumentet -->
+    <div class="slideshow-container">
 
+      <div class="mySlides fade">
+        <img src="img/palm.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="img_snow_wide.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="img_mountains_wide.jpg" style="width:100%">
+      </div>
+    <br>
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      <!-- bildspel -->
+  </div>
+    <p class="text1" id="sang1">jfdksahfkjahjkdhfk</p>
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
 
