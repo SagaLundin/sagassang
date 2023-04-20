@@ -84,14 +84,18 @@ body{
   text-decoration: none;
 }
 
+.lista a:hover {color:#e2ffab}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  align-items: left;
-  align-self: left;
-  align-content: left;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.spelbild{
+  object-fit: cover;
+  height: 189px;
 }
 
 .active {
@@ -104,9 +108,15 @@ body{
   animation-duration: 5s;
 }
 
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.text1{
+  font-size: 23px;
+  backdrop-filter: blur(1px);
 }
 
 
