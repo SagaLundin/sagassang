@@ -13,11 +13,9 @@ body{
     backdrop-filter: blur(5px);
   }
 
-  .header{
-    position: sticky;
-  }
   .navbar{
     background-color: #4e593a;
+    border-bottom: 5px solid #637049;
   }
 
   /* Dropdown Button */
@@ -34,7 +32,8 @@ body{
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover {
-  background-color: #384029;
+  background-color: #4e593a;
+  color: #e2ffab;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -69,7 +68,8 @@ body{
 .show {display:block;}
 
 .lista{
-  background-color: #5d6e3e;
+  backdrop-filter: blur(1px);
+  background: linear-gradient(#6d7b5356 , #677a4477);
   position: sticky;
   top: 0;
   align-self: start;
@@ -84,18 +84,25 @@ body{
   text-decoration: none;
 }
 
+.lista li{
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
 .lista a:hover {color:#e2ffab}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
-  max-height: 100%;
+  height: 189px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .spelbild{
   object-fit: cover;
-  height: 189px;
+height: 189px;
+  object-position: 100% 0;
 }
 
 .active {
@@ -114,9 +121,40 @@ body{
   to {opacity: 1}
 }
 
-.text1{
-  font-size: 23px;
+.innehall{
   backdrop-filter: blur(1px);
+  background: #97ac706b;
+  color: #1a1e14;
+  border: 3px solid #5c7b2372;
+}
+.titel{
+  padding: 5px;
+  padding-bottom: 0;
+  font-size: 35px;
 }
 
+.text1{
+  font-size: 23px;
+  padding: 5px;
+}
 
+.vinorna{
+  max-width: 100%;
+}
+
+.sangbild{
+  max-width: 100%;
+}
+
+footer {
+  padding:40px 0;
+  background-color: #0000005c;
+}
+
+footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#5c7b23;
+  margin-bottom:0;
+}
