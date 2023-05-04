@@ -6,11 +6,6 @@ display: grid;
 }
 /* grid för sida 1*/
 
-.innehall{
-    grid-column: 2/6;
-    grid-row: 3/8;
-}
-
 .lista{
     display: flex;
     flex-direction: column;
@@ -38,12 +33,47 @@ display: grid;
     grid-row: 3/6;
 }
 
-.innehall2{
+.innehall{
     grid-column: 2/6;
+    grid-row: 3/8;
+}
+
+.innehall2{
     grid-row: 9/11;
 }
 
 .innehall3{
-    grid-column: 2/6;
     grid-row: 12/15;
+}
+
+.innehall4{
+    grid-row: 16/18;
+}
+
+.innehall5{
+    grid-row: 19/23;
+}
+
+@media screen and (max-width: 770px){
+   
+    .slideshow-container{
+        grid-column: 1/7;
+    }
+    
+    .lista{
+        grid-row: 3/5;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .innehall{
+        grid-column: 2/7;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .innehall{
+        grid-column: 1/7;
+    }
 }

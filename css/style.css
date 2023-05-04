@@ -46,7 +46,7 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #718055;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -54,7 +54,7 @@ body{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -69,13 +69,16 @@ body{
 
 .lista{
   backdrop-filter: blur(1px);
-  background: linear-gradient(#6d7b5356 , #677a4477);
   position: sticky;
   top: 0;
   align-self: start;
   text-align: left;
   padding-left: 15px;
   list-style-type: none;
+}
+
+#lista1{
+  background: linear-gradient(#6d7b5356 , #677a4477);
 }
 
 .lista a{
@@ -155,6 +158,113 @@ footer .copyright {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:#5c7b23;
+  color:#ffffff71;
   margin-bottom:0;
 }
+
+/* anpassning till mobil */
+
+@media screen and (max-width: 770px){
+
+.vinorna{
+  display: none;
+}
+}
+
+@media screen and (max-width: 400px){
+
+  #lista1{
+    display: none;
+  }
+
+  .innehall{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.titel{
+  font-size: 27px;
+}
+
+  .text1{
+    font-size: 20px;
+  }
+
+}
+
+/* här börjar style för andra sidan*/
+
+.navbar2{
+  background-color: #526373;
+  border-bottom: 5px solid rgb(129, 133, 172);
+}
+
+  /* Dropdown Button */
+  .dropbtn2 {
+    background-color: #526373;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn2:hover {
+    background-color: #526373;
+    color: #bad3ea;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #718055;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content2 a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .body-somn{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.326)), url("../img/bakgrund2.gif");
+    background-color: #526373;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+  }
+
+  #clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  
