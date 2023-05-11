@@ -59,21 +59,35 @@ display: grid;
     .slideshow-container{
         grid-column: 1/7;
     }
+
+    #clock{
+        grid-column: 1/7;
+    }
     
     .lista{
         grid-row: 3/5;
     }
 
+    .lista2{
+        grid-row: 3/5;
+}
 }
 
 @media screen and (max-width: 550px){
     .innehall{
         grid-column: 2/7;
     }
+
+    .somntext{
+        grid-column: 2/7;
+    }
 }
 
 @media screen and (max-width: 400px){
     .innehall{
+        grid-column: 1/7;
+    }
+    .somntext{
         grid-column: 1/7;
     }
 }
@@ -120,4 +134,42 @@ display: grid;
     .somntext5{
         grid-row: 19/23;
         grid-column: 2/6;
+    }
+
+    @media screen and (max-width: 770px){
+   
+        .slideshow-container{
+            grid-column: 1/7;
+        }
+    
+        #clock{
+            grid-column: 1/7;
+        }
+        
+        .lista{
+            grid-row: 3/5;
+        }
+    
+        .lista2{
+            grid-row: 3/5;
+    }
+    }
+    
+    @media screen and (max-width: 550px){
+        .innehall{
+            grid-column: 2/7;
+        }
+    
+        .somntext{
+            grid-column: 2/7;
+        }
+    }
+    
+    @media screen and (max-width: 400px){
+        .innehall{
+            grid-column: 1/7;
+        }
+        .somntext{
+            grid-column: 1/7;
+        }
     }

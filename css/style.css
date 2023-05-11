@@ -186,7 +186,16 @@ footer .copyright {
     display: none;
   }
 
+  .lista2{
+    display: none;
+  }
+
   .innehall{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .somntext{
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -195,7 +204,15 @@ footer .copyright {
   font-size: 27px;
 }
 
+.somntitel{
+  font-size: 27px;
+}
+
   .text1{
+    font-size: 20px;
+  }
+
+  .somn1{
     font-size: 20px;
   }
 
@@ -323,4 +340,31 @@ footer .copyright {
   .somn1{
     font-size: 23px;
     padding: 5px;
+  }
+
+  @media screen and (max-width: 950px){
+
+#clock{
+  font-size: 100px;
+  padding-top: 30px;
+}
+
+  }
+
+  @media screen and (max-width: 550px){
+
+#clock{
+  font-size: 70px;
+  padding-top:50px;
+}
+
+  }
+
+  @media screen and (max-width: 410px){
+
+#clock{
+  font-size: 50px;
+  padding-top: 70px;
+}
+
   }
