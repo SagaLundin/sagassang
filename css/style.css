@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.326)), url("../img/bakgrundgreen.gif");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.326)), url("../img/bakgrundgreen.webm");
     background-color: #4e593a;
     background-size: cover;
     background-position: center;
@@ -275,7 +275,7 @@ footer .copyright {
   .show {display:block;}
 
   .body-somn{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.326)), url("../img/bakgrund2.gif");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.326)), url("../img/bakgrund2.webm");
     background-color: #526373;
     background-size: cover;
     background-position: center;
